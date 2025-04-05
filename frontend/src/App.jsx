@@ -1,12 +1,12 @@
-import './App.css'
+// import "./App.css";
+import HomePage from "./landing_pages/home/HomePage";
 
 function App() {
   return (
     <>
-      <h1>Hiii</h1>
-
+      <HomePage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
